@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "hphk-song.github.io/timetohackathon/static/css/main.4271727f.chunk.css",
+    "main.js": "hphk-song.github.io/timetohackathon/static/js/main.f3d6c870.chunk.js",
+    "main.js.map": "hphk-song.github.io/timetohackathon/static/js/main.f3d6c870.chunk.js.map",
+    "runtime-main.js": "hphk-song.github.io/timetohackathon/static/js/runtime-main.fe39bdb8.js",
+    "runtime-main.js.map": "hphk-song.github.io/timetohackathon/static/js/runtime-main.fe39bdb8.js.map",
+    "static/js/2.60b1bf73.chunk.js": "hphk-song.github.io/timetohackathon/static/js/2.60b1bf73.chunk.js",
+    "static/js/2.60b1bf73.chunk.js.map": "hphk-song.github.io/timetohackathon/static/js/2.60b1bf73.chunk.js.map",
+    "index.html": "hphk-song.github.io/timetohackathon/index.html",
+    "precache-manifest.c0c9b0d6a0b951c998e7b3697a57daaa.js": "hphk-song.github.io/timetohackathon/precache-manifest.c0c9b0d6a0b951c998e7b3697a57daaa.js",
+    "service-worker.js": "hphk-song.github.io/timetohackathon/service-worker.js",
+    "static/css/main.4271727f.chunk.css.map": "hphk-song.github.io/timetohackathon/static/css/main.4271727f.chunk.css.map",
+    "static/media/hackathon.jpg": "hphk-song.github.io/timetohackathon/static/media/hackathon.513b0538.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe39bdb8.js",
+    "static/js/2.60b1bf73.chunk.js",
+    "static/css/main.4271727f.chunk.css",
+    "static/js/main.f3d6c870.chunk.js"
+  ]
+}
