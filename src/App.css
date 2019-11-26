@@ -1,48 +1,30 @@
-div {
-  height: 200px;
-  width: 200px;
-  background: tomato;
-  position: relative;
-  margin: 100px auto;
-  border-bottom: 5px solid black;
-  border-right: 5px solid black;
-  transform: rotate(45deg);
+body {
+  background-color: black;
+  color: white;
+  overflow: hidden;
 }
-div:before,
-div:after {
-  content: "";
+
+h2 {
+  font-size: 100px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.time {
+  text-align: center;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  padding: 0 40px;
+  width: 1050px;
+}
+.bg {
   position: absolute;
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  background: tomato;
-  border: 5px solid transparent;
-  transform: rotate(-45deg);
-  z-index: -2;
-}
-div:before {
-  top: -5px;
-  left: calc(-50% - 5px);
-  border-top-color: black;
-  border-left-color: black;
-}
-div:after {
-  top: calc(-50% - 5px);
-  left: -5px;
-  border-top-color: black;
-  border-right-color: black;
-}
-.active {
-  border-color: blue;
-  background: transparent;
-}
-.active:before {
-  border-top-color: blue;
-  border-left-color: blue;
-  background: transparent;
-}
-.active:after {
-  border-top-color: blue;
-  border-right-color: blue;
-  background: transparent;
+
+  z-index: -1;
+  opacity: 0.5;
 }
